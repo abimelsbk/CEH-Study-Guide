@@ -36,6 +36,7 @@ Prepared by [abimelsbk](https://github.com/abimelsbk).
 
 ## Free resources
 - [Free tryhackme labs](https://github.com/abimelsbk/free-tryhackme-rooms)
+- [EC Council Free Course](https://www.eccouncil.org/cybersecurity-exchange/cyber-novice/free-cybersecurity-courses-beginners/)
 
 ## Connect
 LinkedIn: https://www.linkedin.com/in/abimelsbk
