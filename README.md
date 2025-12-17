@@ -7,11 +7,6 @@ Prepared by [abimelsbk](https://github.com/abimelsbk).
 - Builds on earlier community study guides (see forks below) and adds updated structure and references.
 - Use the `docs/` directory as the primary syllabus—each markdown file maps to a CEH domain/topic.
 
-**Unofficial Study Guide for CEH v12 exam, forked:**
-* _Forked from: https://github.com/imrk51/CEH-v11-Study-Guide_ 
-* _Forked from: https://github.com/scottymcraig/CEHv11StudyGuide_
-* _Forked from: https://github.com/Samsar4/CEH-v10-Study-Guide_
-
 ## Docs index
 - [1-Introduction](docs/1-Introduction.md)
 - [2-Footprinting-and-Reconnaissance](docs/2-Footprinting-and-Reconnaissance.md)
