@@ -1,5 +1,6 @@
 .idea
 .vscode
+.gitignore
 
 _site
 .sass-cache
