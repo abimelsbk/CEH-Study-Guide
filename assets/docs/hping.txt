@@ -1,0 +1,64 @@
+#HPING most important
+
+What does the following hping3 flag do: -c --count | packet count
+What does the following hping3 flag do: -0 --rawip | RAW IP mode
+What does the following hping3 flag do: -1 --icmp | ICMP mode
+What does the following hping3 flag do: -2 --udp | UDP mode
+What does the following hping3 flag do: -8 --scan | SCAN mode.
+What does the following hping3 flag do: -9 --listen | listen mode
+What does the following hping3 flag do: -F --fin | set FIN flag
+What does the following hping3 flag do: -S --syn | set SYN flag
+What does the following hping3 flag do: -R --rst | set RST flag
+What does the following hping3 flag do: -P --push | set PUSH flag
+What does the following hping3 flag do: -A --ack | set ACK flag
+What does the following hping3 flag do: -U --urg | set URG flag
+What does the following hping3 flag do: -X --xmas | set X unused flag (0x40)
+What does the following hping3 flag do: -Y --ymas | set Y unused flag (0x80)
+What does the following hping3 flag do: -T --traceroute | traceroute mode
+What does the following hping3 flag do: -a --spoof | spoof source address
+What does the following hping3 flag do: -f --frag | split packets in more frag. (may pass weak acl)
+What does the following hping3 flag do: -V --verbose | verbose mode
+What does the following hping3 flag do: -i --interval | wait (uX for X microseconds, for example -i u1000)
+What does the following hping3 flag do: --fast | alias for -i u10000 (10 packets for second)
+What does the following hping3 flag do: --faster | alias for -i u1000 (100 packets for second)
+What does the following hping3 flag do: --flood | sent packets as fast as possible. Don't show replies.
+
+#HPING less important
+
+What does the following hping3 flag do: -n --numeric | numeric output
+What does the following hping3 flag do: -q --quiet | quiet
+What does the following hping3 flag do: -I --interface | interface name (otherwise default routing interface)
+What does the following hping3 flag do: -D --debug | debugging info
+What does the following hping3 flag do: -z --bind | bind ctrl+z to ttl (default to dst port)
+What does the following hping3 flag do: -Z --unbind | unbind ctrl+z
+What does the following hping3 flag do: --rand-dest | random destionation address mode. see the man.
+What does the following hping3 flag do: --rand-source | random source address mode. see the man.
+What does the following hping3 flag do: -t --ttl | ttl (default 64)
+What does the following hping3 flag do: -N --id | id (default random)
+What does the following hping3 flag do: -W --winid | use win* id byte ordering
+What does the following hping3 flag do: -r --rel | relativize id field (to estimate host traffic)
+What does the following hping3 flag do: -x --morefrag | set more fragments flag
+What does the following hping3 flag do: -y --dontfrag | set don't fragment flag
+What does the following hping3 flag do: -g --fragoff | set the fragment offset
+What does the following hping3 flag do: -m --mtu | set virtual mtu, implies --frag if packet size > mtu
+What does the following hping3 flag do: -o --tos | type of service (default 0x00), try --tos help
+What does the following hping3 flag do: -G --rroute | includes RECORD_ROUTE option and display the route buffer
+What does the following hping3 flag do: -H --ipproto | set the IP protocol field, only in RAW IP mode
+What does the following hping3 flag do: -C --icmptype | icmp type (default echo request)
+What does the following hping3 flag do: -K --icmpcode | icmp code (default 0)
+What does the following hping3 flag do: -s --baseport | base source port (default random)
+What does the following hping3 flag do: -p --destport | [+][+]<port> destination port(default 0) ctrl+z inc/dec
+What does the following hping3 flag do: -k --keep | keep still source port
+What does the following hping3 flag do: -w --win | winsize (default 64)
+What does the following hping3 flag do: -O --tcpoff | set fake tcp data offset (instead of tcphdrlen / 4)
+What does the following hping3 flag do: -Q --seqnum | shows only tcp sequence number
+What does the following hping3 flag do: -b --badcksum | (try to) send packets with a bad IP checksum many systems will fix the IP checksum sending the packet so you'll get bad UDP/TCP checksum instead.
+What does the following hping3 flag do: -M --setseq | set TCP sequence number
+What does the following hping3 flag do: -L --setack | set TCP ack
+What does the following hping3 flag do: -d --data | data size (default is 0)
+What does the following hping3 flag do: -E --file | data from file
+What does the following hping3 flag do: -e --sign | add 'signature'
+What does the following hping3 flag do: -j --dump | dump packets in hex
+What does the following hping3 flag do: -J --print | dump printable characters
+What does the following hping3 flag do: -B --safe | enable 'safe' protocol
+What does the following hping3 flag do: -u --end | tell you when --file reached EOF and prevent rewind

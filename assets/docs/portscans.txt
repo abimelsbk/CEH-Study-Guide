@@ -1,0 +1,45 @@
+#Port scans and how they work
+
+What does the port status Open mean | The remote host sends a response to accept the connection.
+What does the port status Closed mean | The remote host sends a response indicating the connection is denied.
+What does the port status Filtered mean | There is no reply from the remote host.
+
+What are the characteristiscs of a TCP SYN/half-open/stealth scan | half-open scanning as it doesn’t connect completely to the port
+What are the characteristiscs of a Connect or Vanilla scan | sends the connect() system call. Is faster than other scans, but more easily detected
+What are the characteristiscs of a UDP scan | UDP packet to every port in the scope of the scan but is Slow.
+What are the characteristiscs of a ICMP scan | not a port scan, but it is used to check if the host is up.
+What are the characteristiscs of a FIN scan | sends a FIN packet. No response from the target port means the port is open or blocked by a firewall. Hence, this scan isn’t very effective.
+What are the characteristiscs of a XMAS scan | sends a FIN & URG & PUSH packet. Same response as FIN. Easily detected.
+What are the characteristiscs of a NULL scan | sends a packet with no flags. Same response as FIN.
+What are the characteristiscs of a TCP ACK scan | Sends ACK packet that checkes if the port is filtered (detect the presence of a firewall).
+What are the characteristiscs of a Idle/zombie scan | TCP SYN scan with spoofed IP of other machine and uses this machine to detect if port is open. Anonymous.
+What are the characteristiscs of a FTP bounce scan | Uses a FTP server as middle man for the scan. Anonymous, but slow and often disabled on the FTP server.
+What are the characteristiscs of a Fragmented scan | Fragment the packet. Bypass packet filters but slow.
+What are the characteristiscs of a Strobe scan | Strobe scan is more focused scan where an attacker scans for the known port to exploit.
+What are the characteristiscs of a Windows scan | Same as TCP ACK scan, but can also detect open ports by the windows size. Hard to detect, minimum traffic, but doesn't work on all devices.
+What are the characteristiscs of a Service fingerprint scan | Sends data to detect the service.
+
+In a TCP SYN scan what returns an OPEN port? | SYN/ACK
+In a TCP SYN scan what returns an CLOSED port? | RST
+In a Connect or Vanilla scan what returns an OPEN port? | SYN/ACK
+In a Connect or Vanilla scan what returns an CLOSED port? | RST
+In a UDP scan what returns an OPEN port? | No Response
+In a UDP scan what returns an CLOSED port? | ICMP error
+In a FIN scan what returns an OPEN port? | No Response
+In a FIN scan what returns an CLOSED port? | RST
+In a XMAS scan what returns an OPEN port? | No Response
+In a XMAS scan what returns an CLOSED port? | RST
+In a NULL scan what returns an OPEN port? | No Response
+In a NULL scan what returns an CLOSED port? | RST
+In a TCP ACK scan what returns an FILTERED port? | ICMP Error or No Response
+In a TCP ACK scan what returns an UNFILTERED port? | RST
+In a ZOMBIE scan what returns an OPEN port? | IPID + 2
+In a ZOMBIE scan what returns an CLOSED port? | IPID + 1
+In a FTP BOUNCE scan what returns an OPEN port? | Transefer complete
+In a FTP BOUNCE scan what returns an CLOSED port? | Can't build data connection
+In a WINDOW scan what returns an OPEN port? | RST with non-zero window size
+In a WINDOW scan what returns an CLOSED port? | RST with non-zero window size
+In a WINDOW scan what returns an FILTERED port? | ICMP Error or No Response
+
+What ICMP code will show that traffic is being blocked by firewall | ICMP Type 3 Code 13
+What ICMP code tells you the client itself has the port closed | ICMP Type 3 Code 3

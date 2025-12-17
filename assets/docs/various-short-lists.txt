@@ -1,0 +1,147 @@
+#OSI protocol & flags
+OSI IP Protocol number 1 | ICMP
+OSI IP Protocol number 6 | TCP
+OSI IP Protocol number 17 | UDP
+OSI IP Protocol number 50 | ESP
+OSI IP Protocol number 51 | AH
+OSI TCP flag order | Urgent; Ack; Push; Reset; Syn; Fin
+OSI TCP flag Urgent hex | 0x20
+OSI TCP flag Ack hex | 0x10
+OSI TCP flag Push hex | 0x08
+OSI TCP flag Reset hex | 0x04
+OSI TCP flag Syn hex | 0x02
+OSI TCP flag Fin hex | 0x01
+
+#Law
+What is the following standard for: PCI DSS | FinTech; Credit card
+What is the following standard for: GLBA | FinTech; Witwassen
+What is the following standard for: SOX | FinTech; Amercan Stock Exchange
+What is the following standard for: HIPAA | MedTech; Health Insurance
+
+#Risk management
+What is the Risk Formula | Change x Impact
+What is Risk Appatite | Max amount of Risk you accept
+What is AV in Risk Management | Asset Value
+What is EF in Risk Management | Exposure Factor
+What is Exposure Factor in Risk Management | Percentage is unusable after incident
+What is SLE in Risk Management | Single Loss Expectency
+What is ARO in Risk Management | Anual Rate Occurance
+What is Anual Rate Occurance in Risk Management | Amount of times it happens a year
+What is ALE in Risk Management | Anual Loss Expectency
+How do you calculate Single Loss Expectency | AV x EF
+How do you calculate Anual Loss Expectency | SLE x ARO
+
+# Vulnerability
+What is in CVSS 3.0, AV | Attack Vector
+What is in CVSS 3.0, AC | Attack Complexity
+What is in CVSS 3.0, PR | Privilages Required
+What is in CVSS 3.0, UI | User Interaction
+What is in CVSS 3.0, S | Scope
+What is in CVSS 3.0, C | Confidentiality
+What is in CVSS 3.0, I | Integrity
+What is in CVSS 3.0, A | Availablity
+Name elements in CVSS string CVSS:3/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N | CVSS 3; Attack Vector: Adjecent; Attack Complexity: Low; Privilages Required: None; User Interaction: Required; Scope: Unchanged; Confidentiality: High; Integrity: Low; Availablity: None
+What is Heartbleed vulnerability | OpenSSL vulnerability that shows more data when asking for SSL server availablity
+What is the Shellshock vunerability | Way to access Bash from websites; always have charactes "{:;}"
+
+# Maleware
+What are the specifics of a Virus | Activates when clicked
+What are the specifics of a Worm | Multiplies itself automatically
+What are the specifics of a Bootsector Maleware | Embeds itself in the Bootsector
+What are the specifics of a Macro Maleware | Included in VBA Macro
+What are the specifics of a Cavity Maleware | Embeds itself in empty holes in application code
+What are the specifics of a Retro Maleware | Old maleware that is no longer checked
+What are the specifics of a Logical Maleware | Activates in specific circumstances
+What are the specifics of a Backdoor | Creates a backdoor in the system
+What are the specifics of a Trojan | Malicious file that is hidden inside another file
+What are the specifics of a RAT | Trojan that enables reverse access to the machine
+What are the specifics of a Rootkit | Maleware in the kernel of a system
+
+What are the specifics of a Multipartite virus | attacks a device's boot sector and executable files simultaneously
+What are the specifics of a Polymorphic virus |  Virus that can create modified versions of itself to avoid detection.
+What are the specifics of a stealth-virus | It avoids detection by copy itself from one file to another while leaving a clean file behind
+
+
+# IDS
+What are SNORT rules | Rules used to config IDS
+Format of SNORT rules | Type Protocol Source_ip Source_port Trafic_direction Destination_ip Destination_port
+Name 4 ways of IDS avoidence | Encryption, Obfuscation, Session fragmentation, Session splicing
+Name 4 Firewall types | Packet Filter Firewall (OSI 2-4);Circuit Firewall (OSI 2-5); Application Firewall (2-7); SMIF (Stateful Multilayer Inspection Firewall)
+
+# WIFI
+What is BSSID in wireless networking | MAC of the AP
+What is (E)SSID in wireless networking | Name of the network
+What is the standard 802.11 for? | Wifi
+What is the standard 802.15.1 for? | Bluetooth
+What is the standard 802.15.4 for? | Zigbee (ad-hoc network)
+What is the standard 802.16 for? | WiMAX (MAN wireless)
+What is the encryption methoth and size of WEP | RC4 & 40/104 encryption
+What is the encryption methoth and size of WPA | RC4 + TKIP & 128 encryption
+What is the encryption methoth and size of WPA2 | AES-CCMP & 128 encryption
+What is the encryption methoth and size of WPA3 | SAE & 128 encryption
+
+# DNS
+In DNS what is the A record? | IP4 for a Domain
+In DNS what is the AAAA record? | IP6 for a Domain
+In DNS what is the NS record? | Name Server
+In DNS what is the MX record? | Mail Exchange record
+In DNS what is the SOA record? | Start of authority, information about domain
+In DNS what is the CNAME/Alias record? | Alias for a certain domain
+Order of SOA fields | name; record type; SERIAL; REFRESH; RETRY; EXPIRE; TTL
+
+# Encryption
+What are the characteristics for Encryption: Symetrisch | Single/Shared key cryptography
+What are the characteristics for Encryption: Asymetrisch | Key pair cryptography
+What are the characteristics for Encryption: Subsitution | Replacements
+What are the characteristics for Encryption: Transposition | Changing order
+What are the characteristics for Encryption: Diffi-Hellman | Asymmetric Secure key transfer
+What are the characteristics for Encryption: Hashing | One-way encryption
+What are the characteristics for Encryption: x509 | standard used for digital certificates
+What is for certificates the Certification Authority? | Hands out certificates
+What is for certificates the Validation Authority? | Validates certificates
+What is for certificates the Registration Authority? | Registers certificates
+What is for certificates the CRL? | Certification Revocation List
+What is for certificates the OCSP? | Online Certification Status Protocol
+What is for certificates the PKI? | Public Key Infrastructure
+What is for certificates the CSR? | Certificate Signing Request
+What is for certificates the DV? | Domain Validation
+What is for certificates the OV? | Organisational Validation
+What is for certificates the EV? | Extended Validation (visiting)
+What is for certificates the Blockchain? | Validation technique where the whole chain must be checked
+
+# IPSEC
+What IPSec Modes are there? | Tunnel & Transport
+What is the IPSec Transport mode protocol | ESP
+What is the IPSec Tunnel mode protocol | ESP & AH
+What are the IPSEC protocol ESP & AH port numbers | 50 & 51
+
+# Thread intelligence
+What is strategic Threat intelligence | High-level view of the attack trends, techniques and methods, including their motivations and attributions. It is the process of collecting, analyzing, and acting on data to predict future threats
+What is tactical Threat intelligence | This is to provide security teams with insights about how cyber criminals attack.
+What is operational Threat intelligence | Actionable information about specific incoming attacks likely to affect an organization. 
+
+# Various facts
+What are the NIST Incident Response Phases? | Preparation, Identification, Containment, Eradication, Recovery, and Lessons Learned
+How many port are there? | 65535 TCP & UDP; 131070 Total
+What machine has a default ping ttl of 128 | Windows
+What machine has a default ping ttl of 64 | Linux
+What does VAT stand for | Vulnerability Assessment Tool
+What doest tripple A stand for? | Authorization; Authentication; Auccounting
+Name three tools for Tripple A | RADIUS; DIAMETER; TACACS
+Name the two encryptions methods for Windows Password and Hashing | LMHASH: DES; NTLMHASH v1: 3DES; NTLMHASH v2: MD5
+Name the Maleware types | Virus, Worm, Bootsector, Macro, Cavity, Retro, Logical, Backdoor, Trojan, RAT, Rootkit
+TMP | chip on motherboard that generates encryption keys
+Tethered jailbreaking | resets the kernel every reboot
+Untethered jailbreaking | permanently patches the kernel
+Incident triage | The step where you evaluate an incident and decide how to tackle it. 
+
+# Organisations
+The Information Systems Security Assessment Framework (ISSAF) is produced by the Open Information Systems Security Group (OISSG)
+OWASP (Open Web Application Security Project) is an open source web application security project
+Open Source Security Testing Methodology Manual (OSSTMM) provides a methodology for a thorough security test and is maintained by ISECOM (Institute for Security and Open Methodologies)
+
+# Vulnerability Scanning
+Product-based | installed in the internal network
+Service-based | offered by third parties
+tree-based | different strategies are selected for each machine
+inference-based | inference-based assessment, scanning starts by building an inventory of the protocols found on the machine.

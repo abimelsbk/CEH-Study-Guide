@@ -1,0 +1,64 @@
+# Attack Types
+What is Rainbow Attack | Password cracking attack using Rainbow Tables
+What is Rainbow Tables | Tables of Hashes with the accompanying passwords
+What is Birthday Attack | Password cracking attack using known facts about the user, like birthday
+Dictionary Attack | uses a word list to attack the password. Fastest method of attacking
+Hybrid attack | Takes a dictionary attack and replaces characters (such as a 0 for an o) or adding numbers to the end
+
+BlueBorne Attack | attacks against Bluetooth devices
+Bluesmacking | Denial of service against device
+Bluejacking | Sending unsolicited messages
+Bluesniffing | Attempt to discover Bluetooth devices
+Bluebugging | Remotely using a device’s features
+Bluesnarfing | Theft of data from a device
+Blueprinting | Collecting device information over Bluetooth
+
+Technical Support Attack | Social enginering attack in which you call Technical Support for a password change while impersonating a user.
+Phreaker | manipulates telephone systems
+Phishing | crafting an email that appears legitimate but contains links to fake websites or to download malicious content
+Spear Phishing | targeting a person or a group with a phishing attack
+Whaling | going after CEOs or other C-level executives
+Pharming | use of malicious code that redirects a user's traffic by exploiting vulnerabilities in DNS
+Spimming | sending spam over instant message
+Dumpster Diving | looking for sensitive information in the trash
+Impersonation | pretending to be someone you're not
+Shoulder Surfing | looking over someone's shoulder to get info
+Eavesdropping | listening in on conversations about sensitive information
+Tailgating | attacker has a fake badge and walks in behind someone who has a valid 
+Piggybacking | attacker pretends they lost their badge and asks someone to hold the door
+Wardriving | Driving around scanning for vulnerable/unsecured wifi
+Vishing | Phishing via Voice/call
+Smishing | Phishing via SMS
+Wrench Attack | Physical Attack
+Phlashing | Physical DDOS
+
+Bollard/Boulder | Physical protection
+Mantrap | Sluis naar buiten voor 1 persoon
+Tourniquet | toegangspoortje voor 1 persoon
+
+Wrapping Attack | SOAP message intercepted and data in envelope is changed and sent/replayed
+Session riding | CSRF under a different name; deals with cloud services instead of traditional data centers
+Side Channel Attack | using an existing VM on the same physical host to attack another
+Sybil Attack | uses multiple forged identities to create the illusion of traffic
+HVAC Attacks | attacks on HVAC (heating/airo) systems
+Key Reinstallation Attack (KRACK) | replay attack that uses third handshake of another device's session
+Rogue Access Point | places an access point controlled by an attacker
+Evil Twin | a rogue AP with a SSID similar to the name of a popular network
+Honeyspot | faking a well-known hotspot with a rogue AP
+Ad Hoc Connection Attack | connecting directly to another phone via ad-hoc network
+
+aLTEr attack | aims to redirect a user to a malicious website
+Session Fixation attack | hijacking a real user's session and using it.
+Session Donation attack | the attacker donates their own session ID to the target user
+Website Mirroring | Download the website to analyse the structure
+STP Attack | Plug in rogue switch in low priority LAN port to make it a root bridge and allow network sniffing.
+
+SIM card attack | Attacker exploits vulnerabilities in SIM cards to clone
+Agent Smith attack | Malware specifically targeting Android devices, disguising as legitimate apps. Once infected, it replaces legitimate apps with malicious versions, aiming to generate revenue through deceptive ads and propagate malware.
+
+DROWN attack | Decrypting SSL/TLS communications through SSLv2 vulnerability
+DUHK attack | Exploiting weak random number generators to compromise encryption
+Side-channel attack | Extracting sensitive data through unintended channels
+
+Meet-in-the-Middle attack (MITM) | a known plaintext attack against encryption schemes that rely on performing multiple encryption operations in sequence (2DES & 3DES)
+

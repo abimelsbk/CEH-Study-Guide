@@ -1,0 +1,27 @@
+# PORTS
+
+Wat runs on port 20+21 | FTP
+Wat runs on port 22 | SSH
+Wat runs on port 23 | TELNET
+Wat runs on port 25 | SMTP
+Wat runs on port 53 | DNS
+Wat runs on port 68 | DHCP / BOOTP
+Wat runs on port 69 | TFTP
+Wat runs on port 80 | HTTP
+Wat runs on port 88 | kerberos
+Wat runs on port 110 | POP3
+Wat runs on port 119 | NNTP
+Wat runs on port 123 | NTP
+Wat runs on port 137+138+139 | NETBIOS
+Wat runs on port 161 (UDP) | SNMP
+Wat runs on port 389 | LDAP
+Wat runs on port 443 | HTTPS
+Wat runs on port 445 | SMB/CIFS
+Wat runs on port 514 | Syslog
+Wat runs on port 1434 | MSSQL
+Wat runs on port 1812 | RADIUS
+Wat runs on port 3306 | MySQL
+Wat runs on port 3389 | RDP
+Wat runs on port 5900+5800 | VNC
+Wat runs on port 6667 | IRC
+Wat runs on port 9100 | LPR (HP LaserJet etc.)

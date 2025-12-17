@@ -1,0 +1,66 @@
+# Tools en wat ze doen
+
+Smart Whois | Domain & IP Lookup tool
+dig | Domain Information Groper tool
+Sam Spade | Advanced DNS - DIG tool
+nslookup | DIG tool
+NeoTrace | Route Tracing tool
+VisualRoute | Route Tracing & DIG tool
+VisualRoute Mail Tracker | Route Tracing & DIG tool
+Traceroute | Route Tracing tool
+AngryIP | IP & Port Scanner
+HPing2 | IP & Port Scanner & DoS tool
+pinger | icmp scanning
+friendly pinger | icmp scanning
+ws ping pro | icmp scanning
+netscan tools | icmp scanning
+king ping | icmp scanning
+Nmap | Port scanning
+Social-Engineer Toolkit | Social-Enginering total solution
+Low Orbit Ion Cannon (LOIC) | DDoS tool to join botnets to do UDP/TCP floods
+High Orbit Ion Cannon (HOIC) | DDoS tool like LOIC but able to attack 256 urls at the same time
+CHNTPW | Linux-based tool can change any user’s password or activate disabled Windows accounts
+Ettercap | suite voor adversary-in-the-middle-aanvallen op LAN, die sniffing van live-verbindingen, contentfiltering on the fly omvat
+JXplorer | Automated tool to explore LDAP data
+Bluto | Tool to retrieve DNS zone data
+Whisker | Perform session splicing attacks
+libwisker | tool for vulnerability scanning, exploitation, and IDS evasion
+p0f | passive OS fingerprinting tool
+Multiping | tool to quickly discovering IP addresses of IoT devices on your network.
+FCC ID search | get information about the model of a IoT device and the certifications
+SC.exe | Windows tool to retrieve and set control information about services
+CloudInspect | penetration-test-like services for Amazon EC2 customers
+Wireshark | Network-packet analysing tool
+evilginx | Man-in-the-middle (MITM) proxy
+Burp Suite | Vulnerability scanning and exploiting tool
+OWASP ZAP | Vulnerability scanner
+Vega | Vulnerability scanner
+Nessus | Vulnerability scanner
+WPScan | WordPress vulnerability scanner
+ClickjackPoc | ClickJacking vulnerability scanner
+PwnXSS | XSS vulnerability scanner
+N-Stalker | Web Security Assessment solution
+SQLmap | SQL injection vulnerability scanner
+DSSS | SQL injection vulnerability scanner
+NetStumbler | Windows WIFI sniffing tool
+Kismet | Linux sniffing, Wireles IDS and wardriving tool for Wi-Fi, Bluetooth, Zigbee, RF
+NetSurveyor | WIFI sniffing tool
+Aircrack-ng | WIFI tools for monitor and cracking
+Wifiphisher | WEB network Cracker
+Wifi Cracker | WPA network Cracker
+X-Ray | Vulnerability Detection for Android Devices
+PhoneSploit | Phone Hacking Using Android Debug Bridge
+AndroRAT | Android APK RAT
+Malwarebytes Security | Android tool for detecting Malware
+SuperOneClick | allows an Android user to attain privileged control of the device
+lazys3 | AWS S3 Bucket enumeration
+S3Scanner | AWS S3 Bucket enumeration
+CryptoForge | File & Text Encryption
+Advanced Encryption Package | File Encryption
+BCTextEncoder | Text Encryption
+RMAIL | Email Encryption
+VeraCrypt | Disk Encryption
+BitLocker | Disk Encryption
+Rohos | Disk Encryption
+CrypTool | Crytanalysis
+AlphaPeeler | Crytanalysis
